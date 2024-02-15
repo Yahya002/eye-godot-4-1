@@ -2,9 +2,9 @@ res://
 -characters
 |-shared
 |-player
-||-player.tscn
+ |-player.tscn
 |-eye
-||-eye.tscn
+ |-eye.tscn
 
 -levels
 |-shared
