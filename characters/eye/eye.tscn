@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d0j7qv1enbv2q" path="res://icon.svg" id="1_fot5g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_taxr8"]
-size = Vector2(128, 128)
+size = Vector2(60, 60)
 
 [node name="Eye" type="CharacterBody2D"]
 script = ExtResource("1_a5ab8")
@@ -17,7 +17,7 @@ modulate = Color(1, 0, 0, 1)
 texture = ExtResource("1_fot5g")
 
 [node name="Laser" type="RayCast2D" parent="."]
-target_position = Vector2(50, 0)
+target_position = Vector2(292, -1)
 
 [node name="Sprite2D" type="Sprite2D" parent="Laser"]
 modulate = Color(1, 1, 0, 1)
